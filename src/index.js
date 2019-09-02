@@ -1,9 +1,5 @@
-import React from "react";
+import Generic from './components/Generic'
 
-const Generic = ({ text, children }) => 
-  <div>
-    { text }
-    { children }
-  </div>
-
-export default Generic
+module.exports = {
+  Generic
+}
